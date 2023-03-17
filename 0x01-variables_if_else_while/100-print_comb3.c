@@ -17,7 +17,8 @@ int main(void)
 		for (j = 10; j <= 19; j++)
 		{
 			a = i % 10;
-        		b = j % 10;
+			b = j % 10;
+
 			if (b > a)
 			{
 				putchar(a + '0');
