@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 /**
  * string_toupper - uppers a lower
  * @s: character to make upper
@@ -13,4 +13,4 @@ char *string_toupper(char *s)
 			s[i] = s[i] - 32;
 
 	return (s);
-}
+i}
