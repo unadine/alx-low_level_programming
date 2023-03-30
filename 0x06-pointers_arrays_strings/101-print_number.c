@@ -37,7 +37,7 @@ void print_number(int n)
 	for (i = 0; i < c; i++)
 	{
 		_putchar((a / mult) + '0');
-		abs = a % mult;
+		a = a % mult;
 		mult /= 10;
 	}
 }
