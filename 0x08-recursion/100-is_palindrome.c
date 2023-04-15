@@ -1,5 +1,6 @@
 #include "main.h"
 #include <stdio.h>
+#include <string.h>
 /**
  * check_palindrome_helper - check if numbers are equal
  * @s: input string
